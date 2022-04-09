@@ -1,0 +1,117 @@
+.Home {
+  text-align: center;
+  margin: 10% auto;
+  width: 35%;
+  height: 60vh;
+  background-image:linear-gradient(130deg,rgb(247, 243, 245),rgb(247, 242, 243) );
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-top: 3rem;
+  text-align: center;
+  padding: 20px;
+  
+
+}
+h1{
+  color: rgb(45, 44, 44);
+  
+}
+.textLogo {
+  color: #000507;
+  font-size: 50px;
+  font-family: STHupo;
+  margin-bottom: 10px;
+}
+.form {
+  border: 1px solid;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #8551bc;
+  border-color: #b2e5ff;
+}
+.inputQuestion {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  background-color: #42b2f7;
+  font-family: STXihei;
+  color: #010d13;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-size: 25px;
+}
+::placeholder {
+  color: #fa3674;
+  font-family: STXihei;
+  font-size: 25px;
+}
+.inputAnswer {
+  width: 96%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-top: 8px;
+  background-color:#f742ae;
+  font-family: STXihei;
+  color: #b2e5ff;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-size: 25px;
+}
+.inputAnswer1 {
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-top: 8px;
+  background-color: #f742ae;
+  font-family: STXihei;
+  color: #b2e5ff;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-size: 25px;
+}
+.buttonPlus {
+  border-radius: 5px;
+  color: #b2e5ff;
+  text-align: center;
+}
+.buttonPlusHidden {
+  color: #b2e5ff;
+  border-radius: 5px;
+  text-align: center;
+  visibility: hidden;
+}
+.buttonPoll {
+  background-color: #b2e5ff;
+  color: #2c394d;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: "none";
+}
+.removeUnderline {
+  color: "inherit";
+  text-decoration: "underline";
+}
+.fa-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.fa-disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
