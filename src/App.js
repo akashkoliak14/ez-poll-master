@@ -8,6 +8,7 @@ import Error from './components/Error';
 import Navigation from './components/Navigation';
 import Login from './Login';
 import Registration from './components/Registration';
+import Admin from './components/Admin';
 function App() {	
 	return (
 		<BrowserRouter>
@@ -17,8 +18,10 @@ function App() {
 					<Route path='/' component={Home} exact />
 					<Route path='/vote' component={Vote} />
 					<Route path='/results' component={Result} />
-					<Route path='/Login' component={Login} />
+				
 					<Route path='/Registration' component={Registration} />
+					<Route path='/Admin' component={Admin} />
+					
 					<Route component={Error} />
 				</Switch>
 			</div>

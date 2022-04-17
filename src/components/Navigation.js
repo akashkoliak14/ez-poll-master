@@ -35,7 +35,9 @@ const Navigation = () => {
 		   <Link className="nav-link active mx-4" to="/Registration">Registration</Link>
            </li>
            
-        	
+        	 <li class="nav-item">
+		   <Link className="nav-link active mx-4" to="/Admin">Admin</Link>
+           </li>
        
          </ul>
          CALL US :800-123-4567
