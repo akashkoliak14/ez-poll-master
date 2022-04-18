@@ -1,3 +1,10 @@
+I have developed Poll WebApp using Html,Css,JavaScript,React.Js.
+In these Webapp user can Create Poll and view poll,update Poll.
+user can add Poll like as Educational Poll,Sport category,Event category,etc.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
